@@ -10,6 +10,10 @@ The `v8MaglevFaultInjection` profile and
 representation bugs. Do not report their crashes. Use them only to verify that a
 template and oracle can observe a shape.
 
+For the V8 heap-sandbox/SbxBrk-style workflow (Memory-Corruption-API baseline
+and V8's trap-based sandbox fuzzer), see
+[V8SandboxWorkflow.md](V8SandboxWorkflow.md).
+
 ## 1. Build the target
 
 Use the V8 fuzzbuild described in [Targets/V8/README.md](../Targets/V8/README.md):

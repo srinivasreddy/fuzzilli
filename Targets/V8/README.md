@@ -31,3 +31,5 @@ swift build -c release --product FuzzilliCli
 
 See [Docs/V8VRPWorkflow.md](../../Docs/V8VRPWorkflow.md) for the full VRP
 campaign, triage, and reporting workflow.
+
+See [Docs/V8SandboxWorkflow.md](../../Docs/V8SandboxWorkflow.md) for sandbox/SbxBrk-style fuzzing.

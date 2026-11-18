@@ -127,4 +127,11 @@ struct ProfileTests {
         #expect(referenceArgs!.contains("--no-maglev"))
         #expect(referenceArgs!.contains("--maglev-fuzz-drop-heapobject-check"))
     }
+
+    @Test func testV8SandboxTrapProfile() {
+        let args = v8SandboxTrapProfile.processArgs(false, true)
+        #expect(args.contains("--sandbox-fuzzing"))
+        #expect(args.contains("--sandbox-trap-fuzzing"))
+        #expect(args.contains("--single-threaded"))
+    }
 }

@@ -247,3 +247,6 @@ Special thanks to all users of Fuzzilli who have reported bugs found by it!
 ## Disclaimer
 
 This is not an officially supported Google product.
+
+
+For the V8 heap-sandbox/SbxBrk-style workflow, see [Docs/V8SandboxWorkflow.md](Docs/V8SandboxWorkflow.md).

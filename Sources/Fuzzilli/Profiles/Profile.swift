@@ -69,6 +69,7 @@ public let profiles = [
     "v8Maglev": v8MaglevDifferentialProfile,
     "v8MaglevFaultInjection": v8MaglevFaultInjectionProfile,
     "v8Sandbox": v8SandboxProfile,
+    "v8SandboxTrap": v8SandboxTrapProfile,
     "v8Dumpling": v8DumplingProfile,
     "duktape": duktapeProfile,
     "jerryscript": jerryscriptProfile,
