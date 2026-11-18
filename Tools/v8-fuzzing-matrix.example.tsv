@@ -1,0 +1,6 @@
+# id	profile	d8	asan_d8	jobs	duration	notes
+v8-baseline	v8	/path/to/v8/out/fuzzbuild/d8	-	8	24h	General crash/assertion campaign
+maglev-diff	v8Maglev	/path/to/v8/out/fuzzbuild/d8	-	8	72h	Maglev vs --no-maglev --no-turbofan
+sandbox-api	v8Sandbox	/path/to/v8/out/sandbox/d8	/path/to/v8/out/sandbox-asan/d8	8	72h	Memory-Corruption-API baseline; workers/TOCTOU
+sandbox-trap	v8SandboxTrap	/path/to/v8/out/sandbox-trap/d8	/path/to/v8/out/sandbox-trap-asan/d8	8	72h	Requires pku/ospke for the trap fuzzer
+fault-canary	v8MaglevFaultInjection	/path/to/v8/out/fuzzbuild/d8	-	2	10m	Harness canary only; not a VRP candidate
